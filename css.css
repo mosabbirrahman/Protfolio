@@ -47,9 +47,47 @@
     height: 100%;
 }
 @media only screen and (max-width: 600px) {
-    .pro{
-       
+    .pro{ 
        flex-direction: column;
-
     }
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('04_facts.jpg');
+    position: relative;
+    padding-top: 100px;
+    color: #d0d0d0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    height: 100%;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 100px;
+
+}
+.web{
+  
+   text-align: center;
+}
+.footer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('05_quote.jpg');
+    position: relative;
+    padding-top: 100px;
+    color: #d0d0d0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    height: 100%;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 100px;
 }
